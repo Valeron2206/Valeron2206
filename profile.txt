@@ -1,0 +1,33 @@
+# Card content. Edit freely — today.py lays it out and pads the dot leaders.
+#
+# Syntax:
+#   @ text          card title (the "user@host" line)
+#   [Section]       section header
+#   Key: Value      a row
+#   (blank line)    vertical gap
+#
+# Placeholders filled in by today.py:
+#   {repos} {contributed} {stars} {commits} {followers}
+#   {account_age} {updated}
+
+@ valeriy@github
+
+OS: macOS 26 Tahoe, Ubuntu 24.04
+Uptime: {account_age}
+Shell: zsh, tmux
+IDE: VS Code
+
+Languages.Programming: Rust, Go, TypeScript, Python
+Languages.Computer: HTML, CSS, SQL, YAML, Bash
+Languages.Real: Russian, English
+
+[Contact]
+
+Email: vhalikov22@icloud.com
+Telegram: @valeriy_kh
+GitHub: Valeron2206
+
+[GitHub Stats]
+
+Repos: {repos} {{Contributed: {contributed}}} | Stars: {stars}
+Commits: {commits} | Followers: {followers}
